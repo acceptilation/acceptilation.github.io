@@ -1,0 +1,7 @@
+# used by `mkdocs.yaml` to install Python dependencies
+# used by `actions/setup-python` to cache dependencies
+
+mkdocs
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-committers-plugin-2
+mkdocs-material
