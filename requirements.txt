@@ -1,4 +1,4 @@
-# used by `mkdocs.yaml` to install Python dependencies
+# used by `mkdocs-deploy.yaml` to install Python dependencies
 # used by `actions/setup-python` to cache dependencies
 
 mkdocs
