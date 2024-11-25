@@ -22,13 +22,17 @@ extra:
       link: https://bibleproject.com
       icon: material/chat
 
+    - name: Christianity Today
+      link: https://www.christianitytoday.com
+      icon: material/circle-opacity
+
     - name: Church of the Redeemer
       link: https://www.redeemeratlanta.org
       icon: material/cross-bolnisi
 
     - name: The Gospel Coalition
       link: https://www.thegospelcoalition.org
-      icon: simple/square
+      icon: material/square
 
 theme:
   name: material
