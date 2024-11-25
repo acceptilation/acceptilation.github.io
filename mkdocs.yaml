@@ -13,8 +13,15 @@ plugins:
       repository: acceptilation/notes
       branch: main
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 nav:
   - Home: index.md
+  - Setup:
+    - Azure Functions App: azure-functions-app.md
 
 extra:
   social:
@@ -39,6 +46,8 @@ theme:
   favicon: favicon.io.emoji-favicons.notebook.png
   icon:
     logo: material/note-text
+  features:
+    - navigation.sections
 
   palette:
     - media: "(prefers-color-scheme: dark)"
