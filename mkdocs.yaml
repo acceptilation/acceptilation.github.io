@@ -1,1 +1,54 @@
-site_name: My Docs
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Notes
+copyright: These are my public notes
+
+repo_name: acceptilation/notes
+repo_url: https://github.com/acceptilation/notes
+
+plugins:
+  - privacy
+  - git-revision-date-localized:
+      type: timeago
+  - git-committers:
+      repository: acceptilation/notes
+      branch: main
+
+nav:
+  - Home: index.md
+
+extra:
+  social:
+    - name: BibleProject
+      link: https://bibleproject.com
+      icon: material/chat
+
+    - name: Church of the Redeemer
+      link: https://www.redeemeratlanta.org
+      icon: material/cross-bolnisi
+
+    - name: The Gospel Coalition
+      link: https://www.thegospelcoalition.org
+      icon: simple/square
+
+theme:
+  name: material
+  favicon: favicon.io.emoji-favicons.notebook.png
+  icon:
+    logo: material/note-text
+
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
