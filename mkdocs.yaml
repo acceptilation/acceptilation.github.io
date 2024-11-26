@@ -20,8 +20,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Reference:
+      - Concourse: concourse.md
   - Setup:
-    - Azure Functions App: azure-functions-app.md
+      - Azure Functions App: azure-functions-app.md
 
 extra:
   social:
