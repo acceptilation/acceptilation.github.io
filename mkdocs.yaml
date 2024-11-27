@@ -29,6 +29,7 @@ nav:
   - Setup:
       - Azure Functions App: azure-functions-app.md
       - GitHub Repository: github-repository.md
+      - Remote Redis Connection: remote-redis-connection.md
 
 extra:
   social:
@@ -54,6 +55,7 @@ theme:
   icon:
     logo: material/note-text
   features:
+    - content.code.annotate
     - navigation.sections
 
   palette:
