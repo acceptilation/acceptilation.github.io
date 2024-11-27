@@ -12,7 +12,7 @@ Follow these steps to create an Azure Functions app.
 Installing the Azure Functions core tools grants access to the `func` program.
 
 ```shell
-npm install --global azure-functions-core-tools
+npm install --global azure-functions-core-tools;
 ```
 
 ## Initialize app
@@ -29,7 +29,7 @@ func init;
 ## Generate function
 
 ```shell
-func new
+func new;
 # when prompted, select "BlobTrigger" as the template
 # when prompted, use "LoggingFunction" as the function name
 ```
@@ -39,7 +39,7 @@ func new
 Install the latest version of the .Net framework:
 
 ```shell
-brew install dotnet
+brew install dotnet;
 ```
 
 The new app was likely initialized to use an older version of .Net.
@@ -132,7 +132,7 @@ _logger.LogInformation(
 ## Start app
 
 ```shell
-func start
+func start;
 ```
 
 ## Trigger function
@@ -140,7 +140,7 @@ func start
 Create a file that will be used to trigger the function:
 
 ```shell
-echo "bar" > foo.txt
+echo "bar" > foo.txt;
 ```
 
 1. Return to Azure Storage Explorer.
@@ -168,7 +168,7 @@ Log output should show:
 Deploying a function requires the Azure CLI:
 
 ```shell
-brew install azure-cli
+brew install azure-cli;
 ```
 
 Log in with your Azure credentials, then publish the function to the target Azure Functions app:
