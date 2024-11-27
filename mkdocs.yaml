@@ -25,6 +25,7 @@ nav:
   - Home: index.md
   - Reference:
       - Concourse: concourse.md
+      - JetBrains: jetbrains.md
   - Setup:
       - Azure Functions App: azure-functions-app.md
       - GitHub Repository: github-repository.md
