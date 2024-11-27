@@ -17,6 +17,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
 
 nav:
   - Home: index.md
@@ -24,6 +27,7 @@ nav:
       - Concourse: concourse.md
   - Setup:
       - Azure Functions App: azure-functions-app.md
+      - GitHub Repository: github-repository.md
 
 extra:
   social:
