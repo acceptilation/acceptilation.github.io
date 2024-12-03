@@ -30,6 +30,7 @@ nav:
       - Azure Functions App: azure-functions-app.md
       - GitHub Repository: github-repository.md
       - Remote Redis Connection: remote-redis-connection.md
+      - Safe: safe.md
 
 extra:
   social:
