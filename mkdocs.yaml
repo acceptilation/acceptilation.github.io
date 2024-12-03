@@ -4,14 +4,16 @@ copyright: These are my public notes
 
 repo_name: acceptilation/notes
 repo_url: https://github.com/acceptilation/notes
+edit_uri: edit/main/docs/
 
 plugins:
-  - privacy
-  - git-revision-date-localized:
-      type: timeago
   - git-committers:
       repository: acceptilation/notes
       branch: main
+  - git-revision-date-localized:
+      type: timeago
+  - privacy
+  - search
 
 markdown_extensions:
   - admonition
@@ -20,6 +22,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       clickable_checkbox: true
       custom_checkbox: true
+  - toc:
+      permalink: true
 
 nav:
   - Home: index.md
@@ -56,9 +60,13 @@ theme:
   favicon: favicon.io.emoji-favicons.notebook.png
   icon:
     logo: material/note-text
+    repo: material/github
   features:
+    - content.action.edit
+    - content.action.view
     - content.code.annotate
     - navigation.sections
+    - search.suggest
 
   palette:
     - media: "(prefers-color-scheme: dark)"
