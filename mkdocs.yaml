@@ -31,6 +31,7 @@ nav:
       - GitHub Repository: github-repository.md
       - Remote Redis Connection: remote-redis-connection.md
       - Safe: safe.md
+      - Sonar: sonar.md
 
 extra:
   social:
