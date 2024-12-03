@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Notes
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+My public notes in the form of an MkDocs site
 
-## Commands
+## Python setup
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+```shell
+sudo apt install python3-full;
+python3 -m venv ./.venv;
+source ./.venv/bin/activate;
+pip install --requirement requirements.txt;
+```
 
-## Project layout
+## Run MkDocs
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+```shell
+mkdocs serve;
+```
+
+## JetBrains run configuration
+
+To run site locally:  
+`mkdocs-serve`

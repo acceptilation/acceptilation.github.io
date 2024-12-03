@@ -11,6 +11,12 @@ source ./.venv/bin/activate;
 pip install --requirement requirements.txt;
 ```
 
+## Run MkDocs
+
+```shell
+mkdocs serve;
+```
+
 ## JetBrains run configuration
 
 To run site locally:\
