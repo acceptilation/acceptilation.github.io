@@ -1,14 +1,14 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Notes
-copyright: These are my public notes
+copyright: These are my notes,
 
-repo_name: acceptilation/notes
-repo_url: https://github.com/acceptilation/notes
+repo_name: GitHub Pages
+repo_url: https://github.com/acceptilation/acceptilation.github.io
 edit_uri: edit/main/docs/
 
 plugins:
   - git-committers:
-      repository: acceptilation/notes
+      repository: acceptilation/acceptilation.github.io
       branch: main
   - git-revision-date-localized:
       type: timeago

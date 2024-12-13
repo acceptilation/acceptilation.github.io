@@ -1,6 +1,6 @@
 # Notes
 
-My public notes in the form of an MkDocs site
+My notes in the form of an MkDocs site
 
 ## Python setup
 
