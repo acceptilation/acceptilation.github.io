@@ -18,6 +18,10 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.superfences
   - pymdownx.tasklist:
       clickable_checkbox: true
@@ -30,6 +34,7 @@ nav:
   - Reference:
       - Concourse: reference/concourse.md
       - JetBrains: reference/jetbrains.md
+      - Python-Kafka: reference/python-kafka.md
   - Setup:
       - Azure Functions App: setup/azure-functions-app.md
       - GitHub Repository: setup/github-repository.md
@@ -65,6 +70,7 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.annotate
+    - content.code.copy
     - navigation.sections
     - search.suggest
 
