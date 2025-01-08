@@ -28,14 +28,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Reference:
-      - Concourse: concourse.md
-      - JetBrains: jetbrains.md
+      - Concourse: reference/concourse.md
+      - JetBrains: reference/jetbrains.md
   - Setup:
-      - Azure Functions App: azure-functions-app.md
-      - GitHub Repository: github-repository.md
-      - Remote Redis Connection: remote-redis-connection.md
-      - Safe: safe.md
-      - Sonar: sonar.md
+      - Azure Functions App: setup/azure-functions-app.md
+      - GitHub Repository: setup/github-repository.md
+      - Remote Redis Connection: setup/remote-redis-connection.md
+      - Safe: setup/safe.md
+      - Sonar: setup/sonar.md
 
 extra:
   social:
